@@ -22,10 +22,6 @@ const Quotes = () => {
             let data = await res.json();
             setQuotes(data.quotes);
         }, 1000);
-        
-
-        // console.log(data.quotes);
-
 
         index = Math.floor(Math.random() * 101);
 
